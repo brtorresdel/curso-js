@@ -1,0 +1,26 @@
+<!--Exercício 5, exibir informações na tela com base na string recebida no prompt-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <script>
+        const nome = prompt('Digite seu nome completo: ');
+        console.log(nome.replace(' ', ''));
+
+        document.body.innerHTML = `Seu nome é: ${nome}<br>` +
+                                  `Seu nome tem ${nome.replaceAll(' ', '').length} letras <br>`+
+                                  `A segunda letra do seu nome é: ${nome[1]} <br>`+
+                                  `Qual o primeiro índice da letra A do seu nome? ${nome.indexOf("a")} <br>`+
+                                  `Qual o último índice da letra A do seu nome? ${nome.lastIndexOf('a')} <br>` +
+                                  `As últimas três letras do seu nome são: ${nome.slice(-3)} <br>`+
+                                  `As palavras do seu nome são: ${nome.split(' ')} <br>` +
+                                  `Seu nome com letras maiúsculas: ${nome.toUpperCase()} <br>` +
+                                  `Seu nome com letras minúsculas: ${nome.toLowerCase()}`;  
+    </script>
+</body>
+</html>
