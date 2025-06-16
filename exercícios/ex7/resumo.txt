@@ -1,0 +1,1 @@
+Exercício 7 - Refazer a calculadora de IMC, mas reutilizando operadores condicionais e tudo o que foi aprendido até o momento
