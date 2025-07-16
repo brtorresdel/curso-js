@@ -1,0 +1,1 @@
+Exercício 10 - mudar a cor do background dos parágrafos para a mesma cor do background da página

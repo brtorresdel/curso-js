@@ -1,0 +1,1 @@
+Exercício 10 - criar um timer com botões "Iniciar", "Pausar" e "Zerar"
